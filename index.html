@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b1020">
+  <meta name="description" content="Sisira K — Python and Django developer portfolio.">
+  <title>Sisira K | Python & Django Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="page-glow glow-one"></div>
+  <div class="page-glow glow-two"></div>
+
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Sisira home"><span class="brand-mark">S</span><span>SK<span class="brand-dot">.</span></span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a class="button button-small button-primary nav-resume" href="cv.pdf" download="Sisira_K_CV.pdf">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+          Download CV
+        </a>
+        <a class="nav-contact" href="#contact">Let's talk <span>↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section container" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="status-dot"></span> OPEN TO OPPORTUNITIES</p>
+        <h1>Hi, I'm <span class="gradient-text">Sisira K.</span><br>Python & Django<br>Developer.</h1>
+        <p class="hero-description">I build practical web applications with Python, Django, and modern web technologies. I enjoy solving problems, learning new tools, and turning ideas into useful digital experiences.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span>↘</span></a>
+          <a class="button button-secondary" href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=sisirakollarikkal213@gmail.com&su=Portfolio%20Inquiry" target="_blank" rel="noopener noreferrer">Email me <span>↗</span></a>
+        </div>
+        <div class="hero-socials">
+          <a class="social-button github-button" href="https://github.com/Sisira-21" target="_blank" rel="noopener noreferrer" aria-label="Visit my GitHub profile">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .9a11.1 11.1 0 0 0-3.51 21.63c.55.1.76-.24.76-.54v-2.1c-3.1.67-3.76-1.32-3.76-1.32-.5-1.29-1.24-1.63-1.24-1.63-1.01-.69.08-.68.08-.68 1.12.08 1.71 1.15 1.71 1.15 1 .1.75 2.17 3.3 1.54.1-.72.39-1.21.7-1.49-2.47-.28-5.07-1.24-5.07-5.5 0-1.22.44-2.21 1.15-2.99-.12-.28-.5-1.42.11-2.95 0 0 .94-.3 3.05 1.14a10.6 10.6 0 0 1 5.55 0c2.11-1.44 3.05-1.14 3.05-1.14.61 1.53.23 2.67.11 2.95.72.78 1.15 1.77 1.15 2.99 0 4.27-2.6 5.22-5.08 5.5.4.35.75 1.02.75 2.06v3.07c0 .3.2.65.76.54A11.1 11.1 0 0 0 12 .9Z"/></svg>
+            GitHub <span>↗</span>
+          </a>
+          <a class="social-button linkedin-button" href="https://www.linkedin.com/in/sisiraak/" target="_blank" rel="noopener noreferrer" aria-label="Visit my LinkedIn profile">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 2H3.55C2.69 2 2 2.68 2 3.52v16.96c0 .84.69 1.52 1.55 1.52h16.9c.86 0 1.55-.68 1.55-1.52V3.52c0-.84-.69-1.52-1.55-1.52ZM8.06 18.34H5.1V9.02h2.96v9.32ZM6.58 7.75a1.72 1.72 0 1 1 .02-3.44 1.72 1.72 0 0 1-.02 3.44Zm12.03 10.59h-2.95v-4.53c0-1.08-.02-2.47-1.51-2.47-1.52 0-1.75 1.18-1.75 2.39v4.61H9.45V9.02h2.83v1.27h.04c.39-.73 1.36-1.51 2.8-1.51 3 0 3.55 1.97 3.55 4.53v5.03Z"/></svg>
+            LinkedIn <span>↗</span>
+          </a>
+          <span class="location-note"><span class="location-pin">⌖</span> Kerala, India</span>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal reveal-delay">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="profile-card">
+          <div class="card-top"><span class="window-dot dot-red"></span><span class="window-dot dot-yellow"></span><span class="window-dot dot-green"></span><span class="card-label">developer.py</span></div>
+          <div class="code-window">
+            <p><span class="code-purple">class</span> <span class="code-green">Developer</span>:</p>
+            <p class="indent"><span class="code-purple">def</span> <span class="code-blue">__init__</span>(self):</p>
+            <p class="indent-2">self.name = <span class="code-orange">"Sisira"</span></p>
+            <p class="indent-2">self.focus = <span class="code-orange">"Python & Django"</span></p>
+            <p class="indent-2">self.curiosity = <span class="code-orange">"∞"</span></p>
+            <p class="code-muted"># learning by building ✨</p>
+          </div>
+          <div class="tech-pills"><span>Python</span><span>Django</span><span>MySQL</span></div>
+        </div>
+        <div class="floating-chip chip-top"><span>✦</span> Always learning</div>
+        <div class="floating-chip chip-bottom"><span class="mini-check">✓</span> Building useful things</div>
+      </div>
+      <a class="scroll-cue" href="#about" aria-label="Scroll to about section"><span></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading reveal"><p class="eyebrow"></p><h2>A little about <span class="gradient-text">my journey.</span></h2></div>
+      <div class="about-grid">
+        <div class="about-copy panel reveal">
+          <p>I'm a B.Tech Information Technology graduate from the Institute of Engineering and Technology, University of Calicut. My main interest is backend development with Python and Django, along with building clean, responsive user interfaces.</p>
+          <p>Through academic projects and internship experience, I've practised developing web applications, working with databases, implementing CRUD operations, and connecting application components. I'm looking for an opportunity to learn from a team and contribute to real-world software.</p>
+          <div class="about-tags"><span>Problem solving</span><span>Team collaboration</span><span>Continuous learning</span></div>
+        </div>
+        <div class="about-stats reveal reveal-delay">
+          <div class="stat-card"><span class="stat-icon">⌘</span><strong>Python</strong><span>Core programming</span></div>
+          <div class="stat-card"><span class="stat-icon">◈</span><strong>Django</strong><span>Web development</span></div>
+          <div class="stat-card"><span class="stat-icon">▤</span><strong>MySQL</strong><span>Database basics</span></div>
+          <div class="stat-card"><span class="stat-icon">✧</span><strong>AI & Blockchain</strong><span>Project exposure</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <div class="section-heading reveal"><p class="eyebrow"></p><h2>Tools I work <span class="gradient-text">with.</span></h2><p class="section-intro">Technologies I've used in learning, projects, and practice.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card panel reveal"><div class="skill-symbol">Py</div><h3>Programming</h3><p>Python, JavaScript</p><div class="skill-bar"><span style="--bar:82%"></span></div></article>
+        <article class="skill-card panel reveal reveal-delay-1"><div class="skill-symbol">Dj</div><h3>Backend</h3><p>Django, APIs, CRUD</p><div class="skill-bar"><span style="--bar:78%"></span></div></article>
+        <article class="skill-card panel reveal reveal-delay-2"><div class="skill-symbol">UI</div><h3>Frontend</h3><p>HTML, CSS, Bootstrap, basic React</p><div class="skill-bar"><span style="--bar:75%"></span></div></article>
+        <article class="skill-card panel reveal"><div class="skill-symbol">DB</div><h3>Database</h3><p>MySQL, SQL queries</p><div class="skill-bar"><span style="--bar:72%"></span></div></article>
+        <article class="skill-card panel reveal reveal-delay-1"><div class="skill-symbol">AI</div><h3>AI & Data</h3><p>ML fundamentals, data handling</p><div class="skill-bar"><span style="--bar:58%"></span></div></article>
+        <article class="skill-card panel reveal reveal-delay-2"><div class="skill-symbol">⛓</div><h3>Other tools</h3><p>Git, GitHub, blockchain fundamentals</p><div class="skill-bar"><span style="--bar:60%"></span></div></article>
+      </div>
+      <!-- <p class="small-note">Skill bars are visual indicators only, not formal proficiency scores.</p> -->
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading reveal"><p class="eyebrow"></p><h2>Things I've <span class="gradient-text">built.</span></h2><p class="section-intro">Academic projects and hands-on experiments that helped me practise full-stack development.</p></div>
+      <div class="projects-grid">
+        <article class="project-card panel reveal">
+          <div class="project-art tradebee-art"><div class="art-orb"></div><div class="art-window"><span class="art-caption">TRADEBEE / DASHBOARD</span><div class="chart-line"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="chart-bottom"><span></span><span></span><span></span></div></div><span class="art-badge">AI + BLOCKCHAIN</span></div>
+          <div class="project-body"><div class="project-meta"><span>FINAL YEAR PROJECT</span><span>01</span></div><h3>TradeBee — Virtual Trading Platform</h3><p>A learning-oriented trading platform using virtual Base Coin, portfolio tracking, market insights, and AI-based price prediction concepts. Built with Django and MySQL, with blockchain integration explored through Ethereum/Ganache.</p><div class="tag-list"><span>Python</span><span>Django</span><span>MySQL</span><span>ML</span><span>Blockchain</span><a
+      href="https://github.com/Sisira-21/TradeBee"
+      class="project-git-icon"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="View Workers Portal source code"
+      title="View source code on GitHub"
+    >
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path fill="currentColor"
+          d="M12 .8a11.2 11.2 0 0 0-3.54 21.83c.56.1.76-.24.76-.54v-2.1c-3.1.68-3.76-1.32-3.76-1.32-.51-1.3-1.24-1.65-1.24-1.65-1.02-.7.08-.69.08-.69 1.13.08 1.73 1.16 1.73 1.16 1 1.72 2.62 1.22 3.26.93.1-.72.39-1.22.71-1.5-2.47-.28-5.07-1.24-5.07-5.52 0-1.22.44-2.21 1.16-2.99-.12-.28-.5-1.42.11-2.95 0 0 .95-.3 3.08 1.14a10.7 10.7 0 0 1 5.6 0c2.13-1.44 3.08-1.14 3.08-1.14.61 1.53.23 2.67.11 2.95.72.78 1.16 1.77 1.16 2.99 0 4.29-2.61 5.24-5.1 5.51.4.35.76 1.02.76 2.06v3.12c0 .3.2.65.77.54A11.2 11.2 0 0 0 12 .8Z"/>
+      </svg>
+    </a></div></div>
+        </article>
+        
+        <article class="project-card panel reveal reveal-delay-1">
+          <div class="project-art workers-art"><div class="worker-ui"><div class="worker-ui-head"></div><div class="worker-ui-row"><b></b><span></span></div><div class="worker-ui-row"><b></b><span></span></div><div class="worker-ui-row"><b></b><span></span></div><div class="worker-ui-button"></div></div><span class="project-art-label">WORKERS PORTAL</span></div>
+            
+<div class="project-body">
+  <div class="project-meta">
+    <span>MINI PROJECT</span>
+    <span>02</span>
+  </div>
+
+  <h3>Workers Portal</h3>
+
+  <p>
+    A user-friendly web application designed to help users
+    access worker-related information and services. Developed
+    using Django and standard web technologies.
+  </p>
+
+  <div class="tag-list">
+    <span>Python</span>
+    <span>Django</span>
+    <span>HTML</span>
+    <span>CSS</span>
+
+    <a
+      href="https://github.com/Sisira-21/miniproject"
+      class="project-git-icon"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="View Workers Portal source code"
+      title="View source code on GitHub"
+    >
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path fill="currentColor"
+          d="M12 .8a11.2 11.2 0 0 0-3.54 21.83c.56.1.76-.24.76-.54v-2.1c-3.1.68-3.76-1.32-3.76-1.32-.51-1.3-1.24-1.65-1.24-1.65-1.02-.7.08-.69.08-.69 1.13.08 1.73 1.16 1.73 1.16 1 1.72 2.62 1.22 3.26.93.1-.72.39-1.22.71-1.5-2.47-.28-5.07-1.24-5.07-5.52 0-1.22.44-2.21 1.16-2.99-.12-.28-.5-1.42.11-2.95 0 0 .95-.3 3.08 1.14a10.7 10.7 0 0 1 5.6 0c2.13-1.44 3.08-1.14 3.08-1.14.61 1.53.23 2.67.11 2.95.72.78 1.16 1.77 1.16 2.99 0 4.29-2.61 5.24-5.1 5.51.4.35.76 1.02.76 2.06v3.12c0 .3.2.65.77.54A11.2 11.2 0 0 0 12 .8Z"/>
+      </svg>
+    </a>
+  </div>
+</div>
+
+  <!-- <span class="github-arrow">↗</span> -->
+</a>
+
+</a>
+        </article>
+        <!-- <article class="project-card panel reveal reveal-delay-2">
+          <div class="project-art neon-art"><div class="neon-grid"></div><div class="neon-word">NEON<span>GAME</span></div><div class="neon-spark spark-one">✦</div><div class="neon-spark spark-two">✧</div></div>
+          <div class="project-body"><div class="project-meta"><span>WEB EXPERIMENT</span><span>03</span></div><h3>Neon — Browser Game</h3><p>A small interactive browser game created to practise frontend development, interaction design, and deployment.</p><div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div><div class="project-links"><a href="https://github.com/Sisira-21/neon" target="_blank" rel="noopener noreferrer">View source ↗</a><a href="https://neon-sepia-kappa.vercel.app/" target="_blank" rel="noopener noreferrer">Live demo ↗</a></div></div>
+        </article> -->
+      </div>
+    </section>
+    
+
+    <section class="section container" id="experience">
+      <div class="section-heading reveal"><p class="eyebrow"></p><h2>Learning through <span class="gradient-text">experience.</span></h2></div>
+
+<!-- <section id="experience"> -->
+  <div class="section-heading">
+    <!-- <h2>Experience</h2> -->
+  </div>
+
+  <div class="timeline">
+
+    <!-- Current Internship -->
+    <article class="timeline-item panel reveal">
+      <div class="timeline-top">
+        <div>
+          <h3>Full Stack Developer Intern</h3>
+          <p class="timeline-company">Foximize Technology</p>
+        </div>
+        <span class="timeline-date">Jul 2026 – Jan 2027</span>
+      </div>
+
+      <p>
+        Currently gaining hands-on experience in full-stack development,
+        building web applications, and improving skills in frontend and
+        backend technologies through practical development tasks.
+      </p>
+
+      <div class="tag-list">
+        <span>Python</span>
+        <span>Django</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>SQL</span>
+      </div>
+
+      <p class="duration-note">
+        <!-- <strong>Duration:</strong> July 2026 – January 2027 -->
+        <!-- <span> · Currently Interning</span> -->
+      </p>
+    </article>
+
+    <!-- Previous Internship -->
+    <article class="timeline-item panel reveal">
+      <div class="timeline-top">
+        <div>
+          <h3>Web Development Intern</h3>
+          <p class="timeline-company">Techmindz · Kochi Infopark</p>
+        </div>
+        <span class="timeline-date">December 2024</span>
+      </div>
+
+      <p>
+        Worked with a team on an e-commerce website during an internship.
+        Gained practical exposure to collaborative development and
+        the process of building a web application.
+      </p>
+
+      <div class="tag-list">
+        <span>Team project</span>
+        <span>E-commerce</span>
+        <span>Web development</span>
+      </div>
+
+      <p class="duration-note">
+        <!-- <strong>Duration:</strong> 2–26 -->
+      </p>
+    </article>
+
+  </div>
+</section>
+
+    <section class="section container" id="education">
+      <div class="section-heading reveal"><p class="eyebrow"></p><h2>My learning <span class="gradient-text">background.</span></h2></div>
+      <div class="education-grid">
+        <article class="education-card panel reveal reveal-delay-1"><span class="education-icon">▣</span><div><p class="education-level">BTech</p><h3>BTech Information Technology</h3><p>Institute Of Engineering and Technology,Calicut University</p><p class="education-duration">
+  <strong>Duration:</strong> 2022-2026
+</p></p></div><span class="education-status"></span></article>
+        <article class="education-card panel reveal reveal-delay-1"><span class="education-icon">▣</span><div><p class="education-level">HIGHER SECONDARY</p><h3>Higher Secondary Education</h3><p>MMM HSS Kuttayi </p><p class="education-duration">
+  <strong>Duration:</strong> 2020-2022
+</p></p></div><span class="education-status"></span></article>
+        <article class="education-card panel reveal reveal-delay-2"><span class="education-icon">◇</span><div><p class="education-level">SCHOOL</p><h3>School Education</h3><p>KHMHS Alathiyour</p><p class="education-duration">
+  <strong>Duration:</strong> 2020
+</p></div></article>
+      </div>
+    </section>
+
+   
+<section class="contact-section" id="contact">
+  <div class="container contact-inner reveal">
+
+    <p class="eyebrow">HAVE SOMETHING IN MIND?</p>
+
+    <h2>
+      Let's turn ideas
+      <br>
+      <span class="gradient-text">into reality.</span>
+    </h2>
+
+    <p>
+      Great things start with a conversation. Whether you have a project
+      in mind, an exciting opportunity, or just want to connect,
+      I'd love to hear from you. Let's create something amazing together.
+    </p>
+
+    <a
+      class="button button-primary contact-cta"
+      href="https://mail.google.com/mail/?view=cm&fs=1&to=sisirakollarikkal213@gmail.com&su=Let's%20Connect"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      EMAIL ME
+       <span>↗</span>
+    </a>
+
+    <div class="contact-details">
+      <a href="mailto:sisirakollarikkal213@gmail.com">
+        sisirakollarikkal213@gmail.com
+      </a>
+      <span>Kerala, India · Available to Connect</span>
+    </div>
+
+  </div>
+</section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner"><p>Designed & built with curiosity. © <span id="year"></span> SISIRA K</p><a href="#home">Back to top ↑</a></div>
+  </footer>
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+</body>
+</html>
